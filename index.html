@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <head lang="en-GB">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>DUeat</title>
 <!--link rel='stylesheet' type='text/css' href='style.css'>-->
@@ -11,31 +12,61 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+<style>
+	table, th, td { border: 1px solid black; border-collapse: collapse}
+	th, td {padding: 10px}
+
+	h1 { color: black }
+
+	body { background-color: #b32978 }
+
+	a {color: black; text-decoration: none}
+
+</style>
 </head>
 
 <body>
 <div id="body" class="container-fluid">
 <!-- Heading section -->
 
-<a href="index.html"><img src="banner.jpg" height="200" width="1350" opacity="0.2"></a>
+<a href="index.html"><img src="banner.jpg" style="width:100%" "></a>
+
 <center><h1 class="myHeading">DUeat</h1></center>
 <br>
 
-
-<table class="table table-bordered">
-<tr>
-
-
-<div class="container-fluid"></div>
-<div class="row"></div>
-<div class="col-md-4">Quick Meals</div>
-<div class="col-md-4">Special Occasions</div>
-<div class="col-md-4">Dinner Party</div>
-<div class="col-md-4">Plan Ahead</div>
-<div class="col-md-4">On A Budget</div>
-<div class="col-md-4">Free-From Zone</div>
-
-
-</tr>
-
+<!-- This is the initial drop down table -->
+<table class="table" style="width:100%">
+<div class="container-fluid">
+  <tr>
+    <td> <!--How do I make these have the hover thing? And dropdown menu?-->
+    	<center><strong><a href="quick_meals.html">Quick Meals</strong></center>
+    </td>
+    <td><center><strong><a href="special_occasions.html">Special Occasions</strong></center></td>
+    <td><center><strong><a href="dinner_party.html">Dinner Party</strong></center></td>
+    <td><center><strong><a href="plan_ahead.html">Plan Ahead</strong></center></td>
+    <td><center><strong><a href="on_a_budget.html">On A Budget</strong></center></td>
+    <td><center><strong><a href="free-from_zone.html">Free-From Zone</strong></center></td>
+  </tr>
 </table>
+
+<br>
+</br>
+
+<!-- This are the links -->
+
+<div align="center" style="width:100%">
+	<a href="quick_meals.html"><img src="cat.jpg" alt="Quick Meals" shape="circle"></a> <!-- Why are the shape and alt attributes not working? And how do I place the picture?-->
+
+	<a href="special_occasions.html"><img src="cat.jpg" alt="Special Occasions" shape="circle"></a>
+
+	<a href="dinner_party.html"><img src="cat.jpg" alt="Dinner Party" shape="circle"></a>
+</div>
+<br>
+
+<div align="center" style="width:100%">
+	<a href="plan_ahead.html"><img src="cat.jpg" alt="Plan Ahead" shape="circle"></a>
+
+	<a href="on_a_budget.html"><img src="cat.jpg" alt="On A Budget" shape="circle"></a>
+
+	<a href="free-from_zone.html"><img src="cat.jpg" alt="Free-From Zone" shape="circle"></a>
+</div>
