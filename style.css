@@ -1,7 +1,10 @@
 
-h1 {color: white;
-	font-size: 20px
-
+h1 {
+  color: white;
+	font-size: 20px;
+  float: left; /*Don't know how to make the text properly go left*/
+  width: 20%;
+  margin: 0;
 }
 
 
