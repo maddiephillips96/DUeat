@@ -95,3 +95,7 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+a.backup{
+  color: white;
+}
