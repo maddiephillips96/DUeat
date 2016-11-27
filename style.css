@@ -18,7 +18,8 @@ h1 {
 body {
   background-color: purple;
   margin: 0;
-  padding: 20%;
+  padding: 10%;
+  padding-top: 20%;
   line-height: 1.7;
   font-family: "Alegreya";
   font-size: 18px;
@@ -41,7 +42,7 @@ a {
 }
 
 
-ul{
+ul.banner{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -98,4 +99,10 @@ li.dropdown {
 
 a.backup{
   color: white;
+  float: right;
+}
+
+text{
+  color: white;
+
 }
