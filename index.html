@@ -21,16 +21,19 @@
 <body>
 
 <div id="body" class="container-fluid">
-<!-- Heading section -->
+
+
+<!-- Top banner -->
+<div>
 <header>
 
-
-	<a class="banner" href="index.html"><img src="banner.jpg" width="100%"></a>
-	
+	<div>
+		<a class="banner" href="index.html"><img src="banner.jpg" width=100%></a> <!--Literally no idea why the gap! Or why text goes under here!-->
+	</div>
 
 <!--This is the dropdown navigation bar-->
 
-	<aside class="topbar">
+	<aside>
 		<nav>
 			<ul class="banner">
   				<li class="dropdown">
@@ -41,6 +44,7 @@
    					<div class="dropdown-content">
       					<a href="#">Crab Rigatoni</a>
       					<a href="#">Link 2</a> 
+      				</div>
 
 
    				<li class="dropdown">
@@ -52,6 +56,7 @@
       					<a href="#">Chicken and Mushroom Pie</a>
       					<a href="#">Tuna and Broccoli Pasta Bake</a>
      			 		<a href="#">Chili Con Carne</a> 
+     			 	</div>
 
    				<li class="dropdown">
    					<a href="on_a_budget.html" class="dropbtn">On A Budget</a>	
@@ -61,7 +66,8 @@
    					<div class="dropdown-content">
       					<a href="#">No Meat</a>
       					<a href="#">No Gluten</a>
-     			 		<a href="#">No Alcohol</a> 
+     			 		<a href="#">No Alcohol</a>
+     			 	</div>
 
    				<li><a href="contact_us.html">Contact Us!</a></li>
 
@@ -69,35 +75,42 @@
 		</nav>
 	</aside>
 
-</header>
 
-<br> 
+</header>
+</div>
+
 
 
 <!-- This are the links -->
 
-<h1 class="h1"> Hello </h1>
-<br>
-<br>
+<div>
+	<h1 class="h1"> Hello </h1>
+</div>
+<div>
+	<blockquote class="quote">I'm sorry for what I said when I was hungry!</blockquote>
+	<p>We know that a hungry student is not a happy student, so here at DUeat, we hope you'll never go hungry again! We've got you covered for every budget, occasion and timescale, so take a look through our recipes, find your next favourite meal, and be sure to let us know about it through the contact page!</p>
+</div>
 
 <div align="center" style="width:100%">
-	<a href="quick_meals.html"><img src="cat.jpg" alt="Quick Meals" shape="circle"></a> <!-- Why are the shape and alt attributes not working? And how do I place the picture?-->
+	<a href="quick_meals.html"><img src="quickmeals.jpg" alt="Quick Meals" onmouseover="this.src='quickmealspun.jpg'" onmouseout="this.src='quickmeals.jpg'" width="20%"></a> <!-- Why are the shape and alt attributes not working? And how do I place the picture?-->
 
-	<a href="special_occasions.html"><img src="cat.jpg" alt="Special Occasions" shape="circle"></a>
+	<a href="special_occasions.html"><img src="birthdayparty.jpg" alt="Special Occasions" onmouseover="this.src='specialoccasionpun.jpg'" onmouseout="this.src='birthdayparty.jpg'" width="20%"></a>
 
-	<a href="dinner_party.html"><img src="cat.jpg" alt="Dinner Party" shape="circle"></a>
+	<a href="dinner_party.html"><img src="dinnerparty.jpg" alt="Dinner Party" onmouseover="this.src='dinnerpartypun.jpg'" onmouseout="this.src='dinnerparty.jpg'" width="20%"></a>
 </div>
 <br>
 
 <div align="center" style="width:100%">
-	<a href="plan_ahead.html"><img src="cat.jpg" alt="Plan Ahead" shape="circle"></a>
+	<a href="plan_ahead.html"><img src="cat.jpg" alt="Plan Ahead"></a>
 
-	<a class="budget" href="on_a_budget.html"><img src="budget.jpg" alt="On A Budget" shape="circle"></a>
+	<a href="on_a_budget.html"><img src="budget.jpg" alt="On A Budget" onmouseover="this.src='cheap.jpg'" onmouseout="this.src='budget.jpg'" width="20%"></a>
 
-	<a href="free-from_zone.html"><img src="cat.jpg" alt="Free-From Zone" shape="circle"></a>
+	<a href="free-from_zone.html"><img src="cat.jpg" alt="Free-From Zone"></a>
 </div>
 
 <a class="backup" href="#top">Back to top</a>
+
+</div>
 
 </body>
 </html>
