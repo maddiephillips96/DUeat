@@ -7,6 +7,9 @@
 <!--link rel='stylesheet' type='text/css' href='style.css'>-->
 <link rel="stylesheet" href="style.css" type="text/css" />
 <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+<link href="//abs.twimg.com/favicons/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="//ton.twimg.com/syndication/publish/91c2a0cc/css/publish.css" rel="stylesheet" type="text/css">
+
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,6 +24,38 @@
 
 
 <body>
+<div id="fb-root"></div>
+<div id="fb-root"></div>
+<div id="fb-root"></div>
+<script>(function(d, s, id) { 					 /*Facebook*/
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script>window.twttr = (function(d, s, id) {		/*Twitter*/
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+<script>										/*Pinterest*/
+    type="text/javascript"
+    async defer
+    src="//assets.pinterest.com/js/pinit.js"
+</script>
+
 
 <div id="body" class="container-fluid">
 <!-- Heading section -->
@@ -67,6 +102,13 @@
 
 <!--Main text-->
 <h1 class="h1"> Dinner Parties! </h1>
+
+		<!--social media buttons-->
+<div align="right" align="bottom">
+	<a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+	<div class="fb-share-button" data-href="file:///C:/Users/Kavneet%20Jolly/Desktop/DUeat/DUeat/dinner_party.html" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u&amp;src=sdkpreparse">Share</a></div>
+	<a href="https://www.pinterest.com/pin/create/button/" target="_new"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png" /></a>
+</div>
 <br>
 <br>
 
@@ -140,6 +182,10 @@
 		And for inspiration on drink, have a browse through this list: <a href="http://www.drinknation.com/theme/Military" target="_new">Military Drinks</a>
 	<text>
 	<br>
+	 
+
+
+
 	<a class="backup" href="#top">Back to top</a>
 
 
