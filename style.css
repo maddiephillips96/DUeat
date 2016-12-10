@@ -25,6 +25,10 @@ body {
   font-size: 18px;  
 }
 
+blockquote{
+  font-family: "elephant";
+}
+
 header {
   position: fixed;
   top: 0;
