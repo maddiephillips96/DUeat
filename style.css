@@ -1,7 +1,7 @@
 
 h1 {
   color: white;
-	font-size: 20px;
+	font-size: 30px;
   float: left; /*Don't know how to make the text properly go left*/
   width: 100%;
   margin: 0;
@@ -23,6 +23,10 @@ body {
   line-height: 1.7;
   font-family: "Elephant";
   font-size: 18px;  
+}
+
+blockquote{
+  font-family: "elephant";
 }
 
 header {
@@ -116,6 +120,7 @@ a.banner{
 
 text{
   color: white;
+  font-size: 25px
 }
 
 blockquote.quote{
